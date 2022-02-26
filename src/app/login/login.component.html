@@ -1,0 +1,36 @@
+
+<div class="auth-container">
+    <div class="row auth-main">
+      <div class="col-sm-6 px-0 d-none d-sm-block">
+        <div class="left-img" style="background-image: url(assets/images/user/Uyg.png);">
+        </div>
+      </div>
+      <div class="col-sm-6 auth-form-section">
+        <div class="form-section">
+          <div class="auth-wrapper">
+            <h2 class="d-flex justify-content-center"> Welcome to UYGOMAN </h2>
+  
+            <h2 class="d-flex justify-content-center">Login</h2>
+            <form>
+                <div>
+                    <label>Username</label>
+                    <input class="form-control" type="text" name="username" [(ngModel)]="username" >
+                </div>
+            
+          <div>
+            <label>Password</label>
+            <input class="form-control" type="password" name="password" [(ngModel)]="password" >
+        </div>       
+        <br>
+        <div class="d-flex justify-content-center">
+            <button mat-raised-button color="primary" (click)="LoginUser()" >Login</button>
+        </div>
+        </form>
+            <h6 class="social-login-title">OR</h6>
+         
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
